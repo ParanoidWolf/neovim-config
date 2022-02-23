@@ -19,3 +19,10 @@ keymap('n', '<C-l>', '<C-w>l', opts)
 -- Visual Intendation
 keymap('v', '<', '<gv', opts)
 keymap('v', '>', '>gv', opts)
+
+-- Tab management
+keymap('n', '<Tab>', ':bnext<CR>', opts)
+keymap('n', '<S-Tab>', ':bprev<CR>', opts)
+
+-- Tab completion
+-- keymap('i', '<expr><Tab>', 'pumvisible() ? \"\\<C-n>" : \"\\<Tab>" ', opts)
