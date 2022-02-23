@@ -1,4 +1,8 @@
 -- Packer
+if (vim.loop.os_uname().sysname == "Windows_NT")
+then
+  vim.cmd [[packadd packer.nvim]]
+end
 require('packer').startup(function() 
 	use 'wbthomason/packer.nvim' -- Package manager
         use 'tpope/vim-fugitive' -- Git integration
