@@ -39,5 +39,4 @@ vim.opt.updatecount = 0
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.wildmenu = true
-vim.opt.wildmode = {"list", "longest"}
 vim.cmd [[highlight Comment cterm=italic term=italic gui=italic]]
