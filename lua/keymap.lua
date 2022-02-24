@@ -12,6 +12,7 @@ end
 
 -- Sane defaults
 keymap('n', 'Y', 'y$', opts)
+keymap('n', 'c', '"_c', opts)
 
 -- Shortcuts
 keymap('n', '<Leader>e', ':NvimTreeToggle<CR>', opts)
