@@ -30,6 +30,6 @@ vim.opt.backup = false
 vim.opt.writebackup = false
 vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 300
-vim.opt.timeoutlen = 100
+vim.opt.timeoutlen = 200
 vim.opt.incsearch = true
 vim.opt.guifont = "SF\\ Mono:h16"
