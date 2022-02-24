@@ -15,6 +15,7 @@ require('packer').startup(function()
         use 'kosayoda/nvim-lightbulb' -- VSCode like notification for code-action
         use 'hrsh7th/nvim-cmp' -- Auto completion
         use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
+        use 'windwp/nvim-autopairs'
         use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
         use 'L3MON4D3/LuaSnip' -- Snippets plugin
         use { 'nvim-treesitter/nvim-treesitter', run = ":TSUpdate" } -- Treesitter syntax highlighting
