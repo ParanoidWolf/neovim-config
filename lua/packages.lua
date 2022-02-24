@@ -5,9 +5,8 @@ then
 end
 require('packer').startup(function() 
         use 'wbthomason/packer.nvim' -- Package manager
-        use 'tpope/vim-fugitive' -- Git integration
+        use 'TimUntersberger/neogit' -- Git integration
         use 'lewis6991/gitsigns.nvim' -- Git changes
-        use 'vimwiki/vimwiki' -- Note taking
         use 'morhetz/gruvbox' -- Color scheme
         use 'neovim/nvim-lspconfig' -- Built-in LSP
         use 'glepnir/lspsaga.nvim' -- Performant UI for LSP
