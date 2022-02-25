@@ -7,6 +7,7 @@ require('lsp')
 require('tree')
 require('statusline')
 require('git')
+require('snippets')
 require('nvim-autopairs').setup{}
 require('bufferline').setup{}
 require('gitsigns').setup{}

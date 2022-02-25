@@ -9,9 +9,7 @@ require('packer').startup(function()
         use 'lewis6991/gitsigns.nvim' -- Git changes
         use 'morhetz/gruvbox' -- Color scheme
         use 'neovim/nvim-lspconfig' -- Built-in LSP
-        use 'glepnir/lspsaga.nvim' -- Performant UI for LSP
         use 'onsails/lspkind-nvim' -- Icons in LSP drop down
-        use 'kosayoda/nvim-lightbulb' -- VSCode like notification for code-action
         use 'hrsh7th/nvim-cmp' -- Auto completion
         use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
         use 'windwp/nvim-autopairs'
