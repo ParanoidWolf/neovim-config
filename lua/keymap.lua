@@ -30,3 +30,6 @@ keymap('v', '>', '>gv', opts)
 -- Tab management
 keymap('n', '<Tab>', ':bnext<CR>', opts)
 keymap('n', '<S-Tab>', ':bprev<CR>', opts)
+
+-- Close buffer
+keymap('n', '<C-w>', ':bdelete<CR>', opts)

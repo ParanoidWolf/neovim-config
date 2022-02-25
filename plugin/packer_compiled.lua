@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -84,15 +89,50 @@ _G.packer_plugins = {
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  neogit = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-gps"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/nvim-gps",
+    url = "https://github.com/SmiteshP/nvim-gps"
+  },
+  ["nvim-lightbulb"] = {
+    loaded = true,
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/nvim-lightbulb",
+    url = "https://github.com/kosayoda/nvim-lightbulb"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -100,7 +140,6 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
-    config = { "\27LJ\1\2�\b\0\0\a\0)\00014\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0002\2\0\0:\2\4\0013\2\5\0:\2\6\0013\2\a\0003\3\b\0:\3\t\2:\2\n\0013\2\v\0002\3\0\0:\3\f\2:\2\r\0013\2\14\0002\3\0\0:\3\15\2:\2\16\0013\2\17\0002\3\0\0:\3\18\2:\2\19\0013\2\20\0:\2\21\0013\2\22\0003\3\23\0002\4\0\0:\4\24\3:\3\25\2:\2\26\0013\2\27\0:\2\28\0013\2\30\0003\3\29\0:\3\31\0023\3 \0003\4!\0003\5#\0003\6\"\0:\6$\5:\5%\4:\4&\3:\3'\2:\2(\1>\0\2\1G\0\1\0\factions\14open_file\18window_picker\fexclude\rfiletype\1\0\0\1\4\0\0\vnotify\vpacker\aqf\1\0\2\nchars)ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\venable\2\1\0\1\17quit_on_open\1\15change_dir\1\0\0\1\0\2\vglobal\1\venable\2\ntrash\1\0\2\bcmd\ntrash\20require_confirm\2\tview\rmappings\tlist\1\0\1\16custom_only\1\1\0\t\vnumber\1\tside\tleft\21hide_root_folder\1\16auto_resize\1\vheight\3\30\19relativenumber\1 preserve_window_proportions\1\15signcolumn\byes\nwidth\3\30\bgit\1\0\3\vignore\2\ftimeout\3�\3\venable\2\ffilters\vcustom\1\0\1\rdotfiles\1\16system_open\targs\1\0\0\24update_focused_file\16ignore_list\1\0\2\15update_cwd\1\venable\1\16diagnostics\nicons\1\0\4\tinfo\b\thint\b\nerror\b\fwarning\b\1\0\1\venable\1\23hijack_directories\1\0\2\14auto_open\2\venable\2\23ignore_ft_on_setup\1\0\t\18open_on_setup\1\15auto_close\1\16open_on_tab\1\18hijack_cursor\1\19Sdisable_netrw\1\25auto_reload_on_write\2\17hijack_netrw\2\15update_cwd\1'hijack_unnamed_buffer_when_opening\1\nsetup\14nvim-tree\frequire\0" },
     loaded = true,
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
@@ -120,28 +159,24 @@ _G.packer_plugins = {
     path = "/home/aju/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["vim-fugitive"] = {
+  ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/aju/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["vim-gitgutter"] = {
+  ["telescope-media-files.nvim"] = {
     loaded = true,
-    path = "/home/aju/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
-    url = "https://github.com/airblade/vim-gitgutter"
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim",
+    url = "https://github.com/nvim-telescope/telescope-media-files.nvim"
   },
-  vimwiki = {
+  ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/aju/.local/share/nvim/site/pack/packer/start/vimwiki",
-    url = "https://github.com/vimwiki/vimwiki"
+    path = "/home/aju/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\1\2�\b\0\0\a\0)\00014\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\3\0002\2\0\0:\2\4\0013\2\5\0:\2\6\0013\2\a\0003\3\b\0:\3\t\2:\2\n\0013\2\v\0002\3\0\0:\3\f\2:\2\r\0013\2\14\0002\3\0\0:\3\15\2:\2\16\0013\2\17\0002\3\0\0:\3\18\2:\2\19\0013\2\20\0:\2\21\0013\2\22\0003\3\23\0002\4\0\0:\4\24\3:\3\25\2:\2\26\0013\2\27\0:\2\28\0013\2\30\0003\3\29\0:\3\31\0023\3 \0003\4!\0003\5#\0003\6\"\0:\6$\5:\5%\4:\4&\3:\3'\2:\2(\1>\0\2\1G\0\1\0\factions\14open_file\18window_picker\fexclude\rfiletype\1\0\0\1\4\0\0\vnotify\vpacker\aqf\1\0\2\nchars)ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890\venable\2\1\0\1\17quit_on_open\1\15change_dir\1\0\0\1\0\2\vglobal\1\venable\2\ntrash\1\0\2\bcmd\ntrash\20require_confirm\2\tview\rmappings\tlist\1\0\1\16custom_only\1\1\0\t\vnumber\1\tside\tleft\21hide_root_folder\1\16auto_resize\1\vheight\3\30\19relativenumber\1 preserve_window_proportions\1\15signcolumn\byes\nwidth\3\30\bgit\1\0\3\vignore\2\ftimeout\3�\3\venable\2\ffilters\vcustom\1\0\1\rdotfiles\1\16system_open\targs\1\0\0\24update_focused_file\16ignore_list\1\0\2\15update_cwd\1\venable\1\16diagnostics\nicons\1\0\4\tinfo\b\thint\b\nerror\b\fwarning\b\1\0\1\venable\1\23hijack_directories\1\0\2\14auto_open\2\venable\2\23ignore_ft_on_setup\1\0\t\18open_on_setup\1\15auto_close\1\16open_on_tab\1\18hijack_cursor\1\19Sdisable_netrw\1\25auto_reload_on_write\2\17hijack_netrw\2\15update_cwd\1'hijack_unnamed_buffer_when_opening\1\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
 if should_profile then save_profiles() end
 
 end)
