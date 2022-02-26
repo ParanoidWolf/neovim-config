@@ -32,7 +32,11 @@ keymap('n', '<Tab>', ':bnext<CR>', opts)
 keymap('n', '<S-Tab>', ':bprev<CR>', opts)
 
 -- Close buffer
+<<<<<<< HEAD
+keymap('n', '<Leader>w', ':bdelete<CR>', opts)
+=======
 keymap('n', '<C-w>', ':bdelete<CR>', opts)
+>>>>>>> 574877230500a9ad0b23513bceca817e9aa0b233
 
 -- Telescope
 keymap('n', '<Leader>ff', '<cmd>lua require(\'telescope.builtin\').find_files()<CR>', opts)
