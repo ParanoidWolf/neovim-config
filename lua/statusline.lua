@@ -153,7 +153,7 @@ ins_left {
     return '%='
   end,
 }
---[[
+---[[
 ins_left {
   -- Lsp server name .
   function()
@@ -174,7 +174,7 @@ ins_left {
   icon = ' LSP:',
   color = { fg = '#ffffff', gui = 'bold' },
 }
-]]
+--]]
 -- Add components to right sections
 ins_right {
   'o:encoding', -- option component same as &encoding in viml
