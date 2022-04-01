@@ -6,6 +6,7 @@ end
 require('packer').startup(function() 
         use 'wbthomason/packer.nvim' -- Package manager
         use 'lewis6991/gitsigns.nvim' -- Git changes
+        use 'tpope/vim-fugitive' -- Git Integration
         use 'morhetz/gruvbox' -- Color scheme
         use 'neovim/nvim-lspconfig' -- Built-in LSP
         use 'onsails/lspkind-nvim' -- Icons in LSP drop down
@@ -17,7 +18,6 @@ require('packer').startup(function()
         use { 'nvim-treesitter/nvim-treesitter', run = ":TSUpdate" } -- Treesitter syntax highlighting
         use 'kyazdani42/nvim-web-devicons' -- optional, for file icon
         use 'kyazdani42/nvim-tree.lua' -- Nvim Tree file explorer
-        use 'SmiteshP/nvim-gps' -- Code location
         use 'nvim-lualine/lualine.nvim' -- Status line
         use 'akinsho/bufferline.nvim' -- Buffer line
         use 'nvim-lua/plenary.nvim' -- function library
