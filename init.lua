@@ -1,12 +1,11 @@
-require('config')
-require('keymap')
-require('packages')
+require('config') -- basic configurations
+require('keymap') -- basic keymappings
+require('packages') -- packer settings
 
 -- Plugin Configs
 require('lsp')
 require('tree')
 require('statusline')
-require('git')
 require('snippets')
 require('nvim-autopairs').setup{}
 require('bufferline').setup{}
