@@ -22,4 +22,5 @@ require('packer').startup(function()
         use 'akinsho/bufferline.nvim' -- Buffer line
         use 'nvim-lua/plenary.nvim' -- function library
         use 'nvim-telescope/telescope.nvim' -- Advanced search tool
+        use '~/dev/lua/rss.nvim'
 end)
