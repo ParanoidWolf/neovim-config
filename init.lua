@@ -8,6 +8,6 @@ require('tree')
 require('treesitter')
 require('statusline')
 require('snippets')
+require('luatab').setup{}
 require('nvim-autopairs').setup{}
-require('bufferline').setup{}
 require('gitsigns').setup{}
