@@ -39,3 +39,6 @@ keymap('n', '<Leader>ff', '<cmd>lua require(\'telescope.builtin\').find_files()<
 keymap('n', '<Leader>fg', '<cmd>lua require(\'telescope.builtin\').live_grep()<CR>', opts)
 keymap('n', '<Leader>fb', '<cmd>lua require(\'telescope.builtin\').buffers()<CR>', opts)
 keymap('n', '<Leader>fh', '<cmd>lua require(\'telescope.builtin\').help_tags()<CR>', opts)
+
+-- Format code
+keymap('n', '<Leader>lf', '<cmd>lua vim.lsp.buf.formatting_sync(nil, 1000)<CR>', opts)
