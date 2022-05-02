@@ -19,7 +19,7 @@ require('packer').startup(function()
         use 'kyazdani42/nvim-web-devicons' -- optional, for file icon
         use 'kyazdani42/nvim-tree.lua' -- Nvim Tree file explorer
         use 'nvim-lualine/lualine.nvim' -- Status line
-        use 'alvarosevilla95/luatab.nvim'
+        use 'alvarosevilla95/luatab.nvim' -- tabline
         use 'nvim-lua/plenary.nvim' -- function library
         use 'nvim-telescope/telescope.nvim' -- Advanced search tool
         use '~/dev/lua/rss.nvim'
