@@ -28,8 +28,8 @@ keymap('v', '<', '<gv', opts)
 keymap('v', '>', '>gv', opts)
 
 -- Tab management
-keymap('n', '<Tab>', ':bnext<CR>', opts)
-keymap('n', '<S-Tab>', ':bprev<CR>', opts)
+keymap('n', '<Tab>', ':tabnext<CR>', opts)
+keymap('n', '<S-Tab>', ':tabeprevious<CR>', opts)
 
 -- Close buffer
 keymap('n', '<Leader>w', ':bdelete<CR>', opts)
