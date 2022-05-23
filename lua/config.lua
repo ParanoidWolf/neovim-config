@@ -40,5 +40,6 @@ vim.opt.updatecount = 0
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.wildmenu = true
+vim.opt.laststatus = 3
 vim.cmd [[highlight Comment cterm=italic term=italic gui=italic]]
 vim.cmd [[highlight Normal guibg=NONE ctermbg=NONE]]
