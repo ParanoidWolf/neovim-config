@@ -55,7 +55,6 @@ lspconfig.sumneko_lua.setup{
 local luasnip = require 'luasnip'
 local lspkind = require('lspkind')
 
-
 -- nvim-cmp setup
 local cmp = require 'cmp'
 cmp.setup {
@@ -71,10 +70,12 @@ cmp.setup {
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<C-e>'] = cmp.mapping.close(),
+    ---[[
     ['<Tab>'] = cmp.mapping.confirm {
       behavior = cmp.ConfirmBehavior.Replace,
       select = true,
     },
+    --]]
     --[[
     ['<Tab>'] = function(fallback)
       if cmp.visible() then
@@ -94,7 +95,7 @@ cmp.setup {
         fallback()
       end
     end,
-    ]]
+    --]]
   },
   formatting = {
     format = lspkind.cmp_format({
