@@ -22,5 +22,4 @@ require('packer').startup(function()
         use 'alvarosevilla95/luatab.nvim' -- tabline
         use 'nvim-lua/plenary.nvim' -- function library
         use 'nvim-telescope/telescope.nvim' -- Advanced search tool
-        use '~/dev/lua/rss.nvim'
 end)
